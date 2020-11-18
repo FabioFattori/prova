@@ -15,6 +15,11 @@ namespace Prova_1
 
             Console.WriteLine(mamt);
 
+
+            int sorreta = 100;
+            sorreta -= mamt;
+
+            Console.WriteLine(sorreta);
             Console.ReadKey();
         }
     }
